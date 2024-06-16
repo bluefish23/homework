@@ -5,7 +5,6 @@
 #include"Elf.h"
 #include"Cyberdemon.h"
 #include"Balrog.h"
-
 using namespace std;
 
 int main() {
@@ -17,7 +16,7 @@ int main() {
 	cin >> hit;
 
 	Human role(strength, hit);
-	role.getDamage(); 
+	role.getDamage();
 	cout << endl;
 
 	

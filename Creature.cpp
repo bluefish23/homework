@@ -33,6 +33,13 @@ int Creature::getHit() const
 	return hitpoints;
 }
 
+int Creature::getDamage() 
+{
+	int damage;
+	damage = rand() % getStrength() + 1;
+	return damage;
+}
+
 string Creature::getSpecies()
 {
 	return "ERROR";

@@ -11,9 +11,11 @@ class Human :public Creature
 public:
 	Human();
 	Human(int newStrength, int newHit);
-	int getDamage();
+	int getDamage() override;
 private:
 	string getSpecies();
+
+
 };
 
 #endif

@@ -13,7 +13,7 @@ public:
 	void setHit(int h);
 	int getStrength() const;
 	int getHit() const;
-
+	virtual int getDamage();
 private:
 	int strength;
 	int hitpoints;

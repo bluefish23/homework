@@ -10,7 +10,7 @@ class Cyberdemon :public Demon {
 public:
 	Cyberdemon();
 	Cyberdemon(int newStrength, int newHit);
-	int getDamage();
+	int getDamage() override;
 private:
 	string getSpecies();
 };

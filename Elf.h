@@ -10,7 +10,7 @@ class Elf :public Creature {
 public:
 	Elf();
 	Elf(int newStrength, int newHit);
-	int getDamage();
+	int getDamage() override;
 private:
 	string getSpecies();
 };

@@ -10,7 +10,7 @@ class Balrog :public Demon {
 public:
 	Balrog();
 	Balrog(int newStrength, int newHit);
-	int getDamage();
+	int getDamage() override;
 private:
 	string getSpecies();
 };
